@@ -36,6 +36,10 @@ def turn(board)
 end
 
 def play(board)
-  puts "Hey"
+  counter=0
+  loop
+  
+end
+
 end
 # Define your play method below
