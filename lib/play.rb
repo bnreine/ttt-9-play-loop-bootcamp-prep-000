@@ -36,9 +36,13 @@ def turn(board)
 end
 
 def play(board)
-  counter=0
+  counter=1
   loop do
-    turn
+    turn(board)
+    counter+=1
+    if (counter==10)
+      break
+    end
   end
 
 end
